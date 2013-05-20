@@ -29,7 +29,7 @@ def check_op(exp, result):
 def go():
     start = time.time()
     count = 0
-    n = 10
+    n = 100
     for i in range(n):
         exp = get_exp()
         result = input(exp + "= ")
